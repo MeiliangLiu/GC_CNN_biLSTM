@@ -2,6 +2,9 @@
 
 This repository contains the python code for our paper which submitted to JBHI
 
+## Dependencies:
+conda environment is provided in env.yml
+
 ## Example usage:
 1. Lorenz-96: run Lorenz_96.py  
     To simulation different nonlinear strength and dimension, change the forcing term F and dimension P in line 164: avg_score = train_loz(F=10, P=10, num_epochs=8000, learning_rate=params['learning_rate'], lam=params['lam'])  

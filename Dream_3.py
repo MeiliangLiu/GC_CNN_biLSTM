@@ -97,11 +97,11 @@ def set_seed(seed):
 def read_dream3(size, type):
     name_list = ["Ecoli1", "Ecoli2", "Yeast1", "Yeast2", "Yeast3"]
     label = dream_read_label(
-        r"C:\Users\admin\Desktop\GC_CNN_biLSTM\DREAM3 in silico challenge"
+        r"E:\GC_CNN_biLSTM\DREAM3 in silico challenge"
         r"\DREAM3 gold standards\DREAM3GoldStandard_InSilicoSize" + str(size) + "_" + name_list[type - 1] + ".txt",
         size)
     data = dream_read_data(
-        r"C:\Users\admin\Desktop\GC_CNN_biLSTM\DREAM3 in silico challenge"
+        r"E:\GC_CNN_biLSTM\DREAM3 in silico challenge"
         r"\Size" + str(size) + "\DREAM3 data\InSilicoSize" + str(size) + "-" + name_list[
             type - 1] + "-trajectories.tsv")
     return label, data

@@ -88,7 +88,7 @@ def set_seed(seed):
 
 def read_rat(name):
 
-    base_path = r"C:\Users\admin\Desktop\GC_CNN_biLSTM\Whisker Stimulated Wistar Rats"
+    base_path = r"E:\GC_CNN_biLSTM\Whisker Stimulated Wistar Rats"
     file_extension = ".mat"
 
     path = os.path.join(base_path, name + file_extension)
